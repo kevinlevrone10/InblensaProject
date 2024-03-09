@@ -1,0 +1,187 @@
+﻿@{
+
+    Layout = "~/Views/Shared/View.cshtml";
+    ViewBag.Title = "Log in";
+
+}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Inblensa</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+
+            <div class="logo">
+                <img src="https://i.postimg.cc/Y9m0Bhjm/Pngtree-decoration-wrench-screwdriver-4581956.png" alt="">
+            </div>
+
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item"><a class="menu__link selected" href="#hero">Home</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#about">About Us</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#Products">Products</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#contacts">Contacts</a></li>
+                </ul>
+                <div class="menu__register">
+                    <a class="menu__link" href="/Identity/Account/Login">Login</a>
+                </div>
+
+            </nav>
+            <div class="navMenu">
+                <svg width="40" height="40" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 6l16 0" />
+                    <path d="M4 12l16 0" />
+                    <path d="M4 18l16 0" />
+                </svg>
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <section class="hero" id="hero">
+            <div class="container">
+                <div class="hero__content">
+                    <div class="hero__txt">
+                        <h1 class="hero__h1">Find the Best Products and Tools at Inblensa Hardware Store.</h1>
+                        <p class="hero__p">
+                            We're always here to provide you with everything you need for your construction, repair, and maintenance projects.
+                        </p>
+                        <a href="#products" class="btn btn--block">Explore Products</a>
+
+                        <div class="hero__number">
+                            <div class="hero__expert">
+                                <h2>10+</h2>
+                                <p>Specialized Departments</p>
+                            </div>
+                            <div class="hero__expert">
+                                <h2>1000+</h2>
+                                <p>Quality Products</p>
+                            </div>
+                            <div class="hero__expert">
+                                <h2>10+</h2>
+                                <p>Years of Experience</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="hero__picture">
+                        <img class="hero__img" width="200px" height="300px" src="https://i.postimg.cc/c4DcJbXM/399714965-358107546591939-812104008249831599-n.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="about__content">
+                    <div class="about__txt">
+                        <h2 class="about__h2">Find Everything You Need at Inblensa Hardware Store</h2>
+                        <p class="about__p">
+                            Welcome to Inblensa Hardware Store! Your trusted destination for all your construction, repair, and maintenance needs. Discover our extensive catalog of high-quality tools, materials, and supplies, ready to help you bring your projects to life.
+                        </p>
+                        <br>
+                        <p class="about__p">
+                            Our team of experts is here to provide you with the best advice and support at every stage of your projects. From hand tools to electrical equipment, and from construction materials to safety accessories, we are committed to providing you with everything you need to make your projects a success.
+                        </p>
+                    </div>
+
+                    <div class="about__picture">
+                        <img class="about__img" src="https://i.postimg.cc/T3bMqgyS/405405109-366156895787004-3471139196607921035-n.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="program section" id="Products">
+            <div class="container">
+                <h2 class="program__h2">Find the best products for your construction at Inblensa Hardware Store.</h2>
+                <div class="program__content">
+                    <div class="program__card">
+                        <img src="https://i.postimg.cc/Vkw9Ncch/399753315-359024069833620-2962369486169090696-n.jpg" alt="Hand Tools">
+                        <h3 class="program__h3">Hand Tools</h3>
+                        <p class="program__p">Discover our wide selection of high-quality hand tools for any construction job.</p>
+                    </div>
+                    <div class="program__card">
+                        <img src="https://i.postimg.cc/4xnfVYZH/368236914-312691287800232-1907460931157468356-n.jpg" alt="Construction Materials">
+                        <h3 class="program__h3">Construction Materials</h3>
+                        <p class="program__p">Find the most durable and long-lasting construction materials for your building projects.</p>
+                    </div>
+                    <div class="program__card">
+                        <img src="https://i.postimg.cc/Dy9sM3ZZ/405325947-365157522553608-1780302042367441630-n.jpg" alt="Electrical Equipment">
+                        <h3 class="program__h3">Electrical Equipment</h3>
+                        <p class="program__p">Explore our range of state-of-the-art electrical equipment to facilitate your construction tasks.</p>
+                    </div>
+                    <div class="program__card">
+                        <img src="https://i.postimg.cc/pLmGDHSL/405371919-367659015636792-6078095765848282422-n.jpg" alt="Paints">
+                        <h3 class="program__h3">Paints</h3>
+                        <p class="program__p">Give the finishing touch to your projects with our variety of high-quality paints in different colors and finishes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <footer class="footer" id="contacts">
+            <div class="container">
+                <div class="footer__content">
+                    <img class="" src="src/img/Logo-gym.webp" alt="">
+
+                    <div class="footer__sociales">
+                        <div>
+                            <a href="#">
+                                <svg width="26" height="26" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M22 7.535v9.465a3 3 0 0 1 -2.824 2.995l-.176 .005h-14a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-9.465l9.445 6.297l.116 .066a1 1 0 0 0 .878 0l.116 -.066l9.445 -6.297z" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <svg width="26" height="26" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M21 7.917v4.034a9.948 9.948 0 0 1 -5 -1.951v4.5a6.5 6.5 0 1 1 -8 -6.326v4.326a2.5 2.5 0 1 0 4 2v-11.5h4.083a6.005 6.005 0 0 0 4.917 4.917z" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <svg width="26" height="26" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+                                    <path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <svg width="26" height="26" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M18 2a1 1 0 0 1 .993 .883l.007 .117v4a1 1 0 0 1 -.883 .993l-.117 .007h-3v1h3a1 1 0 0 1 .991 1.131l-.02 .112l-1 4a1 1 0 0 1 -.858 .75l-.113 .007h-2v6a1 1 0 0 1 -.883 .993l-.117 .007h-4a1 1 0 0 1 -.993 -.883l-.007 -.117v-6h-2a1 1 0 0 1 -.993 -.883l-.007 -.117v-4a1 1 0 0 1 .883 -.993l.117 -.007h2v-1a6 6 0 0 1 5.775 -5.996l.225 -.004h3z" stroke-width="0" fill="currentColor" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__copy">
+                    <p>
+                        Copyright © 2024 Kevin Gutierrez
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script>
+        const iconMenu = document.querySelector('.navMenu');
+        const menu = document.querySelector('.menu');
+
+        iconMenu.addEventListener('click', () => menu.classList.toggle('toggle'));
+    </script>
+</body>
+</html>
+
